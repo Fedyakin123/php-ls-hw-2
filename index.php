@@ -30,7 +30,25 @@ require_once('functions.php');
 //
 //echo task4(15, 21);
 
-echo '<p>============= Задание 5 ================</p>';
-
-$palindrome = 'QWE rty   YTr    EWQ';
-task5($palindrome);
+//echo '<p>============= Задание 5 ================</p>';
+//
+//$palindrome = 'QWE rty   YTr    EWQ';
+//task5($palindrome);
+//echo '<p>============= Задание 6 ================</p>';
+//task6();
+//echo '<p>============= Задание 7 ================</p>';
+//task7();
+//echo '<p>============= Задание 8 ================</p>';
+//$packets_str = 'RX packets:950381 errors:0 dropped:0 overruns:0 frame:0. ';
+//$packets_str_smile = 'RX packets:950381 errors:0 dropped:0 overruns:0 frame:)0. ';
+//
+//echo 'Смайла нету: <br />' . task8($packets_str);
+//echo '<p>==========================</p>';
+//echo 'Смайл есть: <br />' . task8($packets_str_smile);
+//echo '<p>============= Задание 9 ================</p>';
+//$filename = './test.txt';
+//echo task9($filename);
+//echo '<p>============= Задание 10 ================</p>';
+$test_file = "anothertest.txt";
+$test_string = 'Hello again <br />';
+echo task10($test_file, $test_string);
